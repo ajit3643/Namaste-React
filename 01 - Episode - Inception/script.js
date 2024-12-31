@@ -11,6 +11,6 @@ const root = document.getElementById("root");
 const heading = React.createElement(
   "h1",
   { id: "heading" },
-  "Welcome to the Inception guide! - Code with Ajit"
+  "Welcome to the Inception guide by - Code with Ajit"
 );
 ReactDOM.render(heading, root);
