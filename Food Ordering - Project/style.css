@@ -4,16 +4,7 @@
   padding: 0;
   font-family: Arial, sans-serif;
 }
-.header {
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid #000;
-}
-.logo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
+
 .nav-items ul {
   display: flex;
   font-size: 24px;
