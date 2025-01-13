@@ -1,12 +1,12 @@
-import { LOGO_URL } from "../assets/constants";
+import Logo from "../assets/Nomzo.png";
 const Header = () => {
   return (
     <div className="header">
       <div className="logo-container">
         <img
           className="logo"
-          src={LOGO_URL}
-          style={{ width: "100px", height: "100px" }}
+          src={Logo}
+          style={{ width: "120px", height: "120px" }}
         />
       </div>
       <div className="nav-items">
