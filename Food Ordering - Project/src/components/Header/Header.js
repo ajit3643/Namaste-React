@@ -6,11 +6,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo-container">
-        <img
-          className="logo"
-          src={LOGO}
-          style={{ width: "120px", height: "120px" }}
-        />
+        <img className="logo" src={LOGO} />
       </div>
       <div className="nav-items">
         <ul>

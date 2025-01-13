@@ -26,6 +26,8 @@
 .logo {
   border-radius: 50%;
   object-fit: cover;
+  width: 4rem;
+  height: 4rem;
 }
 
 /* Navigation Items */
@@ -79,7 +81,7 @@
 /* Medium Screens (Tablets) */
 @media (max-width: 768px) {
   .header {
-    flex-direction: column; 
+    flex-direction: column;
     padding: 1rem;
     text-align: center;
   }
@@ -101,7 +103,7 @@
 /* Small Screens (Mobile) */
 @media (max-width: 480px) {
   .logo {
-    width: 80px; 
+    width: 80px;
     height: 80px;
   }
 
@@ -110,12 +112,12 @@
   }
 
   .cart img {
-    width: 25px; 
+    width: 25px;
     height: 25px;
   }
 
   .cart span {
-    padding: 0.1rem 0.4rem; 
+    padding: 0.1rem 0.4rem;
     font-size: 0.8rem;
   }
 }
