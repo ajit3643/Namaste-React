@@ -1,4 +1,5 @@
-import { CDN_URL } from "../assets/constants";
+import { CDN_URL } from "../../assets/constants";
+import "./style.css";
 const Restaurant = (props) => {
   const { resName, cuisine, rating, time } = props;
 
