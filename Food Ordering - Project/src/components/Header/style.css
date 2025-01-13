@@ -79,7 +79,7 @@
 /* Medium Screens (Tablets) */
 @media (max-width: 768px) {
   .header {
-    flex-direction: column; /* Stack header items vertically */
+    flex-direction: column; 
     padding: 1rem;
     text-align: center;
   }
@@ -89,7 +89,7 @@
   }
 
   .nav-items ul {
-    flex-direction: column; /* Stack navigation items vertically */
+    flex-direction: column;
     gap: 1rem;
   }
 
@@ -101,21 +101,21 @@
 /* Small Screens (Mobile) */
 @media (max-width: 480px) {
   .logo {
-    width: 80px; /* Adjust logo size for smaller screens */
+    width: 80px; 
     height: 80px;
   }
 
   .nav-items li a {
-    font-size: 1rem; /* Smaller font size for navigation links */
+    font-size: 1rem;
   }
 
   .cart img {
-    width: 25px; /* Adjust cart icon size */
+    width: 25px; 
     height: 25px;
   }
 
   .cart span {
-    padding: 0.1rem 0.4rem; /* Adjust badge size */
+    padding: 0.1rem 0.4rem; 
     font-size: 0.8rem;
   }
 }
